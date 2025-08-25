@@ -7,6 +7,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 *{
@@ -14,6 +15,7 @@ nav {
     padding:0;
     box-sizing: border-box;
     font-family: 'inter','seogoe ui',tahoma, sans-serif;
+    scroll-behavior: smooth;
 }
  :root {
             --primary:black;
@@ -26,7 +28,6 @@ nav {
    body{
     background: linear-gradient(135deg, var(--primary), var(--secondary));
     color: var(--text);
-    min-height:100vh;
     min-width: 100vw;
     line-height: 1.6;
     overflow-x: hidden;
@@ -64,7 +65,7 @@ nav{
 }
 .nav-links{
     display: flex;
-    gap: 2rem;
+    gap: 10px;
     margin-left: auto;
     justify-content: flex-end;
     align-items: center;
@@ -212,7 +213,6 @@ section{
     background: var(--tetiary);
     padding: 0 2rem;
     box-sizing: border-box;
-    min-height: 100vh;
     padding: 4rem 0;
     min-width: 100vw;
 }
